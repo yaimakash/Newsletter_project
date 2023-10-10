@@ -1,0 +1,78 @@
+@media all and (min-width : 750px) {
+  
+  body{
+    background-color: hsl(235, 18%, 26%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150%;
+    width: 100vw;
+    
+  }
+
+  #news-card {
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 60% 40%;
+    height: 93%;
+    width: 95%;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 10px;
+   
+  }
+  
+  #text-section{
+    margin-top: 5%;
+  }
+  
+  #img{
+    order: 2;
+    margin-top: 5%;
+    margin-bottom: -15%;
+  }
+  
+  #text-section{
+    order: 1;
+    height: 100%;
+  }
+  
+  #svg{
+    display: none;
+  }
+  
+  #svgPC{
+    display: block;
+    width: 100%;
+    height: 90%;
+  }
+  
+  #imgANDp{
+    margin-right: 4%;
+    padding-right: 1%;
+  }
+  
+  #inpANDbtn{
+    margin-top: 3%;
+  }
+  
+  #inpANDbtn input,button {
+    padding: 4%;
+    width: 92%;
+    border-radius: 4px;
+  }
+  
+  li{
+    margin: 1%;
+  }
+  
+  #imgANDp{
+    margin-bottom: 8%;
+  }
+  
+  #invalid{
+  margin-right: 35px;
+}
+
+}

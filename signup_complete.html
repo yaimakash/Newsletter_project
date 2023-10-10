@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign-up Successful</title>
+  <link rel="stylesheet" href="/Newsletter_project/signup_complete.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  
+  
+</head>
+
+<body>
+
+<div id="full-area">
+  
+  <img src="/Newsletter_project/icon-success.svg">
+  <p class="large">Thanks for</p>
+  <p class="large">subscribing!</p>
+  <p id="normal-text">A confirmation email has been sent to <b>(the email)</b>. Please open it and click the button inside to confirm your subscription</p>
+ 
+  <button onclick="backHome()">Dismiss message</button>
+  
+</div>
+
+
+<script>
+  function backHome(){
+    setTimeout(()=>{
+      window.location.href='/Newsletter_project/index.html'
+    },500)
+  }
+</script>
+
+</body>
+
+</html>

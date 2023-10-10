@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Newsletter</title>
+
+  <link rel="stylesheet" href="/Newsletter_project/newsletter_project.css">
+  <link rel="stylesheet" href="/Newsletter_project/responsiveness.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div id="news-card">
+
+    <div id="img">
+      <img src="/Newsletter_project/illustration-sign-up-mobile.svg" id="svg">
+      <img src="/Newsletter_project/illustration-sign-up-desktop.svg" id="svgPC">
+    </div>
+
+    <div id="text-section">
+
+      <div id="h1ANDp">
+        <h1>Stay updated!</h1>
+        <p>Join 60,000+ product managers receiving monthly updates on:</p>
+      </div>
+
+      <div id="imgANDp">
+
+        <ul class="paraMage">
+          <li> <img src="/Newsletter_project/icon-success.svg">
+            <p>Product discovery and building what matters</p>
+          </li>
+
+          <li> <img src="/Newsletter_project/icon-success.svg">
+            <p>Measuring to ensure updates are a success</p>
+          </li>
+
+          <li><img src="/Newsletter_project/icon-success.svg">
+            <p>And much more</p>
+          </li>
+        </ul>
+
+      </div>
+
+      <div id="inpANDbtn">
+
+        <div id="emailCheck">
+
+          <h6>Email address</h6>
+          <h6 id="invalid"></h6>
+
+        </div>
+
+
+        <input type="email" placeholder="email@company.com" onkeyup="emailValidation()" id="input">
+        <button  onclick="buttonClick()">Subscribe to monthly newsletter</button>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="/Newsletter_project/newsletter_project.js"></script>
+</body>
+
+</html>
